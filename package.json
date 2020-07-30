@@ -1,0 +1,20 @@
+{
+  "name": "EO-twitter-bot",
+  "version": "1.0.0",
+  "description": "Ĉi tio estas projekto por krei reta roboto kiu interagas kun Twitter (plibonigi, sekvi, ktp)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-j-hacker/EO-twitter-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-j-hacker/EO-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/m-j-hacker/EO-twitter-bot#readme"
+}
