@@ -50,9 +50,19 @@ T.get('search/tweets', params, function(err, data, response) {
                     console.log('Plej ŝatis: ', `https://twitter.com/${username}/status/${tweetId}`)
                 }
             });
+            // Now we will try to follow the user who posted the current tweet
+            // Nun ni provos sekvi la uzanto kiu afiŝis la nuntempan afiŝon
+            T.post('friendships/create', {username}, function(err, res) {
+                if(err) {
+                    console.log(err);
+                } else {
+                    console.log(username, ': FOLLOWED!!');
+                }
+            })
+
         }
     } else {
         // Se eraro ekzistas, redonu logon
         console.log(err)
     }
-})
+});
