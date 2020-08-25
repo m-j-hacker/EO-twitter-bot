@@ -1,5 +1,5 @@
 # EO-twitter-bot
-Ĉi tio estas projekto por krei reta roboto kiu interagas kun Twitter (plibonigi, sekvi, ktp)
+Ĉi tio estas projekto por krei retan roboton kiu interagas kun Twitter (plibonigi, sekvi, ktp)
 
 ## Kiel uzi
 Unua, vi devas plenigi la informon en la config.js dosiero. Vi bezonos fari programistan konton por Tvitero.
